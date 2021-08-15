@@ -1,0 +1,7 @@
+- w3 = Web3(...)
+- Default Unit: **Wei**
+  - Ether -> Wei: w3.toWei(10, 'ether')
+- Why ERC20 not recognized?
+  - You must implement exactly Interface ERC20.
+  - Etherscan will recognize your ERC20 when the first Transfer event happen. 
+  - https://ethereum.stackexchange.com/questions/74506/erc20-not-recognized-by-tokentracker
